@@ -11,64 +11,71 @@
       rel="stylesheet"
     />
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        font-family: "DM Sans", sans-serif;
+      }
+    </style>
   </head>
-  <body class="bg-[#ffffff] font-sans">
+  <body class="bg-[#ffffff]">
     <div class="flex min-h-screen">
       <!-- Sidebar -->
-      <aside class="h-1/2 w-64 bg-[#0E6860]">
+      <aside
+        class="hidden md:flex flex-col bg-[#0F766E] text-white justify-between"
+      >
         <div>
-          <div class="py-6 flex justify-center items-center">
+          <div class="p-6">
             <img src="/Icons/logo 1.png" alt="logo" class="w-48 h-12" />
           </div>
-          <div>
-            <nav class="p-6 space-y-4">
-              <div class="flex p-2 space-x-3 hover:bg-white w-full">
-                <img src="/Icons/mage_dashboard-3.png" alt="overview" />
-                <a href="#" class="block text-white hover:text-[#0F766E]"
-                  >Overview</a
-                >
-              </div>
-              <div class="flex p-2 space-x-3 hover:bg-white w-full">
-                <img src="/Icons/agreement-02.png" alt="agreement" />
-                <a href="#" class="block text-white hover:text-[#0F766E]"
-                  >Partner Discovery</a
-                >
-              </div>
-              <div class="flex p-2 space-x-3 hover:bg-white w-full">
-                <img src="/Icons/user-add-01.png" alt="user_icon" />
-                <a href="#" class="block text-white hover:text-[#0F766E]"
-                  >Partners</a
-                >
-              </div>
-              <div class="flex p-2 space-x-3 hover:bg-white w-full">
-                <img src="/Icons/sticky-note-03.png" alt="stickynote" />
-                <a href="#" class="block text-white hover:text-[#0F766E]"
-                  >Reports</a
-                >
-              </div>
-              <div class="flex p-2 space-x-3 hover:bg-white w-full">
-                <img src="/Icons/proicons_settings.png" alt="setting_icon" />
-                <a
-                  href="#"
-                  class="block text-white hover:bg-white hover:text-[#0F766E]"
-                  >Settings</a
-                >
-              </div>
-            </nav>
-          </div>
-          <div class="mt-20 mb-6 px-6">
-            <div class="flex p-2 space-x-3 hover:bg-white w-full">
-              <img src="/Icons/Frame.png" alt="logout_icon" />
-              <button class="text-white hover:text-[#0F766E]">Logout</button>
+
+          <nav class="mt-6 space-y-2 px-4 text-sm">
+            <div
+              class="flex space-x-3 px-4 py-2 hover:text-[#0F766E] hover:bg-white rounded"
+            >
+              <img src="/Icons/mage_dashboard-3.png" alt="overview" />
+              <a href="#" class="block">Overview</a>
             </div>
-          </div>
+            <div class="flex space-x-3 px-4 py-2 bg-white rounded">
+              <img src="/Icons/agreement-01.png" alt="agreement" />
+              <a href="#" class="block text-teal-800 font-medium"
+                >Partner Discovery</a
+              >
+            </div>
+            <div
+              class="flex space-x-3 px-4 py-2 hover:text-[#0F766E] hover:bg-white rounded"
+            >
+              <img src="/Icons/user-add-01.png" alt="user_icon" />
+              <a href="#" class="block">Partners</a>
+            </div>
+            <div
+              class="flex space-x-3 px-4 py-2 hover:text-[#0F766E] hover:bg-white rounded"
+            >
+              <img src="/Icons/sticky-note-03.png" alt="stickynote" />
+              <a href="#" class="block">Reports</a>
+            </div>
+            <div
+              class="flex space-x-3 px-4 py-2 hover:text-[#0F766E] hover:bg-white rounded"
+            >
+              <img src="/Icons/proicons_settings.png" alt="setting_icon" />
+              <a href="#" class="block">Settings</a>
+            </div>
+          </nav>
+        </div>
+
+        <div
+          class="flex space-x-3 px-4 py-2 hover:text-[#0F766E] hover:bg-white rounded"
+        >
+          <img src="/Icons/exit.png" alt="logout_icon" />
+          <button class="block">Logout</button>
         </div>
       </aside>
 
       <!-- Main Content -->
-      <main class="flex-1 p-8">
+      <main class="flex-1 p-4 md:p-8">
         <!-- Top Bar -->
-        <div class="flex justify-between items-center mt-0 p-6 border-b w-full">
+        <div
+          class="flex justify-between items-center p-2 pt-0 mb-6 border-b w-full"
+        >
           <p class="text-sm text-gray-500">Wednesday, December, 2025</p>
           <div class="flex items-center gap-3">
             <img src="/Icons/Frame.png" alt="vector" />
@@ -85,8 +92,8 @@
         <div
           class="bg-white rounded-md p-4 text-sm text-gray-500 shadow-md mb-4"
         >
-          Partner Discovery <span class="mx-2">›</span>
-          <span class="text-gray-800 font-medium">Partner profile</span>
+          <span class="mx-2">Partner Discovery</span>
+          <p class="text-gray-800 font-medium">Partner profile</p>
         </div>
 
         <div class="bg-white rounded-lg shadow-md p-8">
