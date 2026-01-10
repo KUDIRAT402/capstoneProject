@@ -18,7 +18,7 @@
     </style>
   </head>
   <body class="bg-[#ffffff]">
-    <div class="flex min-h-screen">
+    <div class="bg-[#fafafa] flex min-h-screen">
       <!-- Sidebar -->
       <aside
         class="hidden md:flex flex-col bg-[#0F766E] text-white justify-between"
@@ -37,7 +37,7 @@
             </div>
             <div class="flex space-x-3 px-4 py-2 bg-white rounded">
               <img src="/Icons/agreement-01.png" alt="agreement" />
-              <a href="#" class="block text-teal-800 font-medium"
+              <a href="profile.html" class="block text-teal-800 font-medium"
                 >Partner Discovery</a
               >
             </div>
@@ -45,19 +45,19 @@
               class="flex space-x-3 px-4 py-2 hover:text-[#0F766E] hover:bg-white rounded"
             >
               <img src="/Icons/user-add-01.png" alt="user_icon" />
-              <a href="#" class="block">Partners</a>
+              <a href="approval.html" class="block">Partners</a>
             </div>
             <div
               class="flex space-x-3 px-4 py-2 hover:text-[#0F766E] hover:bg-white rounded"
             >
               <img src="/Icons/sticky-note-03.png" alt="stickynote" />
-              <a href="#" class="block">Reports</a>
+              <a href="report.html" class="block">Reports</a>
             </div>
             <div
               class="flex space-x-3 px-4 py-2 hover:text-[#0F766E] hover:bg-white rounded"
             >
               <img src="/Icons/proicons_settings.png" alt="setting_icon" />
-              <a href="#" class="block">Settings</a>
+              <a href="setting.html" class="block">Settings</a>
             </div>
           </nav>
         </div>
@@ -66,7 +66,7 @@
           class="flex space-x-3 px-4 py-2 hover:text-[#0F766E] hover:bg-white rounded"
         >
           <img src="/Icons/exit.png" alt="logout_icon" />
-          <button class="block">Logout</button>
+          <button class="block"><a href="/login.html">Logout</a></button>
         </div>
       </aside>
 
@@ -92,8 +92,8 @@
         <div
           class="bg-white rounded-md p-4 text-sm text-gray-500 shadow-md mb-4"
         >
-          <span class="mx-2">Partner Discovery</span>
-          <p class="text-gray-800 font-medium">Partner profile</p>
+          Partner Discovery <span class="mx-2">›</span>
+          <span class="text-gray-800 font-medium">Partner profile</span>
         </div>
 
         <div class="bg-white rounded-lg shadow-md p-8">
@@ -236,7 +236,7 @@
           <button
             class="w-1/2 mt-6 bg-[#00A870] text-sm text-white font-semibold px-6 py-2 rounded-lg hover:bg-white-700 hover:text-[[#00A870] transition"
           >
-            <a href="/deal.html">Proceed to deal details</a>
+            <a href="/payment.html">Proceed to deal details</a>
           </button>
         </div>
       </main>

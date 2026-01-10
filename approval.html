@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Partner Profile</title>
+    <title>Approval</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,7 +18,7 @@
     </style>
   </head>
    <body class="bg-[#ffffff]">
-    <div class="flex min-h-screen">
+    <div class=" bg-[#fafafa] flex min-h-screen">
       <!-- Sidebar -->
       <aside
         class="hidden md:flex flex-col bg-[#0F766E] text-white justify-between"
@@ -37,7 +37,7 @@
             </div>
             <div class="flex space-x-3 px-4 py-2 hover:text-[#0F766E] hover:bg-white rounded">
               <img src="/Icons/agreement-02.png" alt="agreement" />
-              <a href="#" class="block"
+              <a href="profile.html" class="block"
                 >Partner Discovery</a
               >
             </div>
@@ -45,19 +45,19 @@
               class="flex space-x-3 px-4 py-2 bg-white rounded"
             >
               <img src="/Icons/user-2.png" alt="user_icon" />
-              <a href="#" class="block text-teal-800 font-medium">Partners</a>
+              <a href="approval.html" class="block text-teal-800 font-medium">Partners</a>
             </div>
             <div
               class="flex space-x-3 px-4 py-2 hover:text-[#0F766E] hover:bg-white rounded"
             >
               <img src="/Icons/sticky-note-03.png" alt="stickynote" />
-              <a href="#" class="block">Reports</a>
+              <a href="report.html" class="block">Reports</a>
             </div>
             <div
               class="flex space-x-3 px-4 py-2 hover:text-[#0F766E] hover:bg-white rounded"
             >
               <img src="/Icons/proicons_settings.png" alt="setting_icon" />
-              <a href="#" class="block">Settings</a>
+              <a href="setting.html" class="block">Settings</a>
             </div>
           </nav>
         </div>
@@ -66,7 +66,7 @@
           class="flex space-x-3 px-4 py-2 hover:text-[#0F766E] hover:bg-white rounded"
         >
           <img src="/Icons/exit.png" alt="logout_icon" />
-          <button class="block">Logout</button>
+          <button class="block"><a href="/login.html">Logout</a></button>
         </div>
       </aside>
 
@@ -97,16 +97,17 @@
         </div>
 
          <!-- Header -->
-      <div class="mb-6">
+      <div class="my-6">
         <h2 class="font-bold mb-2">Business Details</h2>
-        <p text-sm text-gray-600>Information about the datails carried out with partner</p>
+        <p class=" text-xs text-gray-500 font-semibold">Information about the datails carried out with partner</p>
     
       </div>
 
       <!-- Content Grid -->
-       <div>
+       <div class="bg-white rounded-lg shadow-md p-8">
+        <div class="mb-4">
             <h2 class="font-bold mb-2">Partnership Type</h2>
-            <p class="text-sm font-semibold"> Referral-based business partnership
+            <p class="text-xs text-gray-500 font-semibold"> Referral-based business partnership
                 </p>
        </div>
       <div class="grid md:grid-cols-2 gap-10">
@@ -114,60 +115,60 @@
         <!-- Left Column -->
         <div class="space-y-6">
           <div>
-            <h2 class="font-bold mb-2">Commission & Payment</h2>
-            <p class="text-sm font-semibold">
+            <h2 class="font-bold">Commission & Payment</h2>
+            <p class="text-xs text-gray-500 font-bold py-1">
               Commission Model:
-              <span class="font-light text-sm text-gray-600">
+              <span class="text-xs text-gray-500 font-semibold">
                 20% per completed booking</span
               >
             </p>
-            <p class="text-sm font-semibold">
+            <p class="text-xs text-gray-500 font-bold py-1">
               Commission Rate:
-              <span class="font-light text-sm text-gray-600">
+              <span class="text-xs text-gray-500 font-semibold">
                 15% per completed booking</span
               >
             </p>
-            <p class="text-sm font-semibold">
+            <p class="text-xs text-gray-500 font-bold py-1">
               Payment Trigger:
-              <span class="font-light text-sm text-gray-600">
+              <span class="text-xs text-gray-500 font-semibold">
                 After service is successfully delivered</span
               >
             </p>
-            <p class="text-sm font-semibold">
+            <p class="text-xs text-gray-500 font-bold py-1">
               Settlement Cycle:
-              <span class="font-light text-sm text-gray-600">
+              <span class="text-xs text-gray-500 font-semibold">
                 Monthly payouts</span
               >
             </p>
           </div>
 
           <div>
-            <h2 class="font-bold text-lg mb-2">Scope of Services</h2>
-            <p class="text-sm font-semibold">
+            <h2 class="font-bold">Scope of Services</h2>
+            <p class="text-xs text-gray-500 font-bold py-1">
               Service included:
-              <span class="font-light text-sm text-gray-600">
+              <span class="text-xs text-gray-500 font-semibold">
                 Spa treatments, wellness sessions</span
               >
             </p>
-            <p class="text-sm font-semibold">
+            <p class="text-xs text-gray-500 font-bold py-2">
               Service Area:
-              <span class="font-light text-sm text-gray-600"> Lagos</span>
+              <span class="text-xs text-gray-500 font-semibold"> Lagos</span>
             </p>
           </div>
 
           <div>
-            <h2 class="font-bold text-lg mb-2">Review & Duration</h2>
-            <p class="text-sm font-semibold">
+            <h2 class="font-bold">Review & Duration</h2>
+            <p class="text-xs text-gray-500 font-bold py-1">
               Review Frequency:
-              <span class="font-light text-sm text-gray-600"> Monthly</span>
+              <span class="text-xs text-gray-500 font-semibold"> Monthly</span>
             </p>
-            <p class="text-sm font-semibold">
+            <p class="text-xs text-gray-500 font-bold py-1">
               Contract Duration:
-              <span class="font-light text-sm text-gray-600"> 3 years</span>
+              <span class="text-xs text-gray-500 font-semibold"> 3 years</span>
             </p>
-            <p class="text-sm font-semibold">
+            <p class="text-xs text-gray-500 font-bold py-1">
               Termination Clause:
-              <span class="font-light text-sm text-gray-600">
+              <span class="text-xs text-gray-500 font-semibold">
                 Either party may terminate with prior notice</span
               >
             </p>
@@ -175,10 +176,10 @@
         </div>
 
         <!-- Right Column -->
-        <div class="space-y-6">
+        <div class="space-y-4">
           <div>
-            <h3 class="font-bold text-lg mb-2">Partner Commitments</h3>
-            <ul class="list-disc list-inside text-sm text-gray-600 space-y-1">
+            <h3 class="font-bold mb-2">Partner Commitments</h3>
+            <ul class="list-disc list-inside text-xs text-gray-500 font-semibold space-y-2">
               <li>Deliver services as described in the proposal</li>
               <li>Maintain agreed service quality standards</li>
               <li>Honor all hotel-generated referrals</li>
@@ -186,8 +187,8 @@
           </div>
 
           <div>
-            <h3 class="font-bold text-lg mb-2">Hotel Rights</h3>
-            <ul class="list-disc list-inside text-sm text-gray-600 space-y-1">
+            <h3 class="font-bold mb-2">Hotel Rights</h3>
+            <ul class="list-disc list-inside text-xs text-gray-500 font-semibold space-y-2">
               <li>Review and approve or reject deal terms</li>
               <li>Monitor performance and guest feedback</li>
               <li>Suspend or terminate partnership if standards are not met</li>
@@ -197,12 +198,14 @@
       </div>
 
       <!-- Button -->
-      <div class="mt-10">
+      <div class="mt-8">
         <button
-          class="w-1/2 bg-[#FF383C] hover:bg- text-sm text-white py-4 px-6 rounded-lg font-semibold"
+          class="w-1/2 bg-[#FF383C] hover:ring-2 hover:ring-[#FE6244] text-sm text-white py-4 px-6 rounded-lg font-semibold"
         >
           Cancel deals
         </button>
       </div>
+       </div>
   </body>
 </html>
+color

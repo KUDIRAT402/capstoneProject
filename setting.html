@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Settings – LocalConnect</title>
+    <title>Settings</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,7 +19,7 @@
     </style>
   </head>
   <body class="bg-gray-100">
-    <div class="flex min-h-screen">
+    <div class="bg-[#fafafa] flex min-h-screen">
       <!-- Sidebar -->
       <aside
         class="hidden md:flex w-64 bg-[#0F766E] text-white flex-col justify-between"
@@ -40,23 +40,25 @@
               class="flex space-x-3 px-4 py-2 hover:text-[#0F766E] hover:bg-white rounded"
             >
               <img src="/Icons/agreement-02.png" alt="agreement" />
-              <a href="#" class="block">Partner Discovery</a>
+              <a href="profile.html" class="block">Partner Discovery</a>
             </div>
             <div
               class="flex space-x-3 px-4 py-2 hover:text-[#0F766E] hover:bg-white rounded"
             >
               <img src="/Icons/user-add-01.png" alt="user_icon" />
-              <a href="#" class="block">Partners</a>
+              <a href="approval.html" class="block">Partners</a>
             </div>
             <div
               class="flex space-x-3 px-4 py-2 hover:text-[#0F766E] hover:bg-white rounded"
             >
               <img src="/Icons/sticky-note-03.png" alt="stickynote" />
-              <a href="#" class="block">Reports</a>
+              <a href="report.html" class="block">Reports</a>
             </div>
             <div class="flex space-x-3 px-4 py-2 bg-white rounded">
               <img src="/Icons/settings 2.png" alt="setting" />
-              <a href="#" class="block text-teal-800 font-medium">Settings</a>
+              <a href="setting.html" class="block text-teal-800 font-medium"
+                >Settings</a
+              >
             </div>
           </nav>
         </div>
@@ -65,7 +67,7 @@
           class="flex space-x-3 px-4 py-2 hover:text-[#0F766E] hover:bg-white rounded"
         >
           <img src="/Icons/exit.png" alt="logout_icon" />
-          <button class="block">Logout</button>
+          <button class="block"><a href="/login.html">Logout</a></button>
         </div>
       </aside>
 
